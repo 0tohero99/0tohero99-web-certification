@@ -1,0 +1,51 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 53px;
+    /* border: 3px solid green; */
+    background-color: #ac3434
+}
+
+.logo {
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: wheat;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.social {
+    float: right;
+}
+
+.slogo {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+    margin-top: 8%;
+
+}
+
+#search {
+    height: 350px;
+    border: 3px dotted yellowgreen;
+}
+
+#Qsearch {
+    height: 350px;
+    border: 7px groove lightblue;
+}
+
+footer {
+    height: 53px;
+    border: 3px solid green;
+}

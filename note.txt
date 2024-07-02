@@ -19,13 +19,28 @@ Inline elements :
 Audio Video Tag.
 location.
 city pages.
- linking of icon in the title.
-    linking pages(internal/external).
-    anchor.
-    images.
-    clickable images.
-    website serch and show things.
+linking of icon in the title.
+linking pages(internal/external).
+anchor.
+images.
+clickable images.
+website serch and show things.
 lists | 
 talble |
 details sumary tag |
 dl dt dd tagssss|
+
+============Day 3=====================================
+priority wise style👇 :
+inline styling .
+internal(style tag) styling .
+external styling .
+
+> always give height in px and width in % .  
+height |margin |display |width| overflow |
+text decoration |text-align |
+
+Targeting elements by three ways👇:
+By tag name | by id | by class |
+
+ 
