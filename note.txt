@@ -16,4 +16,16 @@ Inline elements :
 >It ocupies required space only.
  
 ============Day 2=====================================
-
+Audio Video Tag.
+location.
+city pages.
+ linking of icon in the title.
+    linking pages(internal/external).
+    anchor.
+    images.
+    clickable images.
+    website serch and show things.
+lists | 
+talble |
+details sumary tag |
+dl dt dd tagssss|
