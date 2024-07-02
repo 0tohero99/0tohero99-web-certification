@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>city website</title>
+    <link rel="icon" href="">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><span class="text">City page</span></div>
+        <ul>
+            <a href="#Manali">
+                <li>Manali</li>
+            </a>
+            <a href="#Karnataka">
+                <li>Karnataka</li>
+            </a>
+            <a href="#Kolkata">
+                <li>Kolkata</li>
+            </a>
+            <a href="">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <div class="social">
+            <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </nav>
+    <section id="Manali">
+        <center>
+            <h1>Manali</h1>
+            <img src="./foto/manali.jpg" alt="manali">
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci, dolore mollitia maxime
+                consectetur quas omnis provident. Dolor, nam ipsum aliquam consequuntur modi quam placeat excepturi,
+                corporis hic perferendis fuga.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est molestias eligendi consequatur id
+                ipsa hic aperiam culpa minus natus et qui aut, rem amet, modi impedit repudiandae ex quod?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci, dolore mollitia maxime
+                consectetur quas omnis provident. Dolor, nam ipsum aliquam consequuntur modi quam placeat excepturi,
+                corporis hic perferendis fuga.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est molestias eligendi consequatur id
+                ipsa hic aperiam culpa minus natus et qui aut, rem amet, modi impedit repudiandae ex quod?
+            </div>
+        </center>
+    </section>
+    <section id="Karnataka">
+        <center>
+            <h1>Karnataka</h1>
+            <img src="./foto/karnataka.jpg" alt="Karnataka">
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci, dolore mollitia maxime
+                consectetur quas omnis provident. Dolor, nam ipsum aliquam consequuntur modi quam placeat excepturi,
+                corporis hic perferendis fuga.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est molestias eligendi consequatur id
+                ipsa hic aperiam culpa minus natus et qui aut, rem amet, modi impedit repudiandae ex quod?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci, dolore mollitia maxime
+                consectetur quas omnis provident. Dolor, nam ipsum aliquam consequuntur modi quam placeat excepturi,
+                corporis hic perferendis fuga.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est molestias eligendi consequatur id
+                ipsa hic aperiam culpa minus natus et qui aut, rem amet, modi impedit repudiandae ex quod?
+            </div>
+        </center>
+    </section>
+    <section id="Kolkata">
+        <center>
+            <h1>Kolkata</h1>
+            <img src="./foto/kolkata.jpg" alt="Kolkata">
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci, dolore mollitia maxime
+                consectetur quas omnis provident. Dolor, nam ipsum aliquam consequuntur modi quam placeat excepturi,
+                corporis hic perferendis fuga.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est molestias eligendi consequatur id
+                ipsa hic aperiam culpa minus natus et qui aut, rem amet, modi impedit repudiandae ex quod?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci, dolore mollitia maxime
+                consectetur quas omnis provident. Dolor, nam ipsum aliquam consequuntur modi quam placeat excepturi,
+                corporis hic perferendis fuga.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est molestias eligendi consequatur id
+                ipsa hic aperiam culpa minus natus et qui aut, rem amet, modi impedit repudiandae ex quod?
+            </div>
+        </center>
+    </section>
+</body>
+
+</html>
