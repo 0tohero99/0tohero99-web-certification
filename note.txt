@@ -38,7 +38,7 @@ external styling .
 
 > always give height in px and width in % .  
 height |margin |display |width| overflow |
-text decoration |text-align |
+text decoration| border |text-align |
 
 Targeting elements by three ways👇:
 By tag name | by id | by class |

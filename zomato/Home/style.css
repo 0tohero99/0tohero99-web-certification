@@ -10,10 +10,10 @@
 header {
     height: 53px;
     /* border: 3px solid green; */
-    background-color: #ac3434
+    background-color: #ac3434;
 }
 
-.logo {
+.brand {
     float: left;
     font-size: 30px;
     font-weight: 700;
@@ -36,16 +36,168 @@ header {
 }
 
 #search {
-    height: 350px;
-    border: 3px dotted yellowgreen;
+    height: 400px;
+    background-image: url("./foto/foods.jpg");
+    background-size: 100% 400px;
+
+}
+
+.logo {
+    background-color: wheat;
+    /* opacity: .8; */
+    height: 70px;
+    width: 12%;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 43%;
+}
+
+.logotext {
+    font-size: 43px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 15.3%;
+    margin-left: 27%;
+}
+
+.heading {
+    color: azure;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 13%;
+    /* opacity: .7; */
+}
+
+.dropdown {
+    /* border: 1px solid green; */
+    height: 35px;
+    width: 67%;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 18%;
+}
+
+select {
+    height: inherit;
+}
+
+.selectcity {
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    width: 45%;
+    font-size: 21px;
+    opacity: .7;
+}
+
+.selectrestorent {
+    border: none;
+    border-radius: 3px;
+    width: 54%;
+    font-size: 21px;
+    text-align: center;
+    opacity: .7;
+
 }
 
 #Qsearch {
-    height: 350px;
-    border: 7px groove lightblue;
+    /* border: 1px solid green; */
+    /* height: 570px; */
+    width: 85%;
+    margin: 2% 2% 3% 7%;
+    display: inline-block;
+}
+
+.Qheading {
+    font-weight: 700;
+    font-size: 35px;
+    color: #ac3434;
+}
+
+.Qsubheading {
+    font-size: 18px;
+    color: gray;
+    margin-left: 1%;
+}
+
+/* .container{
+    display: inline-block;
+} */
+.tile {
+    float: left;
+    border-radius: 3px;
+    width: 41%;
+    height: 130px;
+    box-shadow: 0 0 3px 3px gray;
+    margin: 3% 3% 3% 4.3%;
+}
+
+
+.tile1 {
+    float: left;
+    width: 52%;
+    height: 130px;
+}
+
+.tile1>img {
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
+}
+
+.tile2 {
+    float: right;
+    width: 45%;
+    height: 130px;
+}
+
+.tileheading {
+    font-size: 21px;
+    font-weight: 700;
+    color: #ac3434;
+    text-align: center;
+
+}
+
+.tiletext {
+    color: gray;
+    text-align: center;
+    margin-top: 13%;
 }
 
 footer {
-    height: 53px;
-    border: 3px solid green;
+    border: 1px solid green;
+    height: 93px;
+    background-color: #ac3434;
+    color: khaki;
+}
+
+.ftext {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 1% 0 1% 0;
+}
+
+.footdiv {
+    float: left;
+    line-height: 23px;
+    font-size: 17px;
+    border-right: 1px solid khaki;
+    text-align: center;
+    width: 30%;
+    letter-spacing: 1px;
+    margin-left: 3%;
+}
+
+.noborder {
+    border: none;
+}
+
+.footdiv>ul>li {
+    list-style: none;
 }
